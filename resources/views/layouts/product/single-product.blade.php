@@ -74,7 +74,7 @@
                         <div class="avalable">
                             <p>Hãng sản xuất:<span> {{ $type->name }}</span></p>
                         </div>
-                        
+
                         <div class="item-price" style="display: flex">
                             @if(isset($product->price_sale))
                                 <span class="old-price" style="padding-right: 20px"><strike>{{ number_format($product->price) }}</strike>  đ</span>
@@ -97,7 +97,7 @@
                             <div class="color-select">
 
                                 <div class="input-box" style="display: flex">
-                                    <h5 style="margin-top: 8px"><span style="color: red;padding-right: 10px">*</span>Đồ ăn kèm</h5>
+                                    <h5 style="margin-top: 8px"><span style="color: red;padding-right: 10px">*</span>Đồ ăn k</h5>
                                     <div class="toolbar-bottom text-left select-opt pt-0 mt-0">
                                         <ul class="color" id="color">
                                             @foreach ($color as $item)
@@ -121,7 +121,7 @@
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
                         <div class="cart-item">
                             <div class="single-cart">
