@@ -9,7 +9,7 @@
             </div>
             <div class="single-sidebar-content">
                 <ul>
-                    <li><a href="/products">Tất cả sản phẩm({{$count_pr}}) </a></li>
+                    <li><a href="/products">Tất cả sản phẩm({{$count_pr ?? ''}}) </a></li>
                    @foreach($category as $item)
                     <li><a href="/the-loai/{{$item->id}}">{{$item->name }}</a></li>
                        @endforeach
