@@ -15,7 +15,9 @@ class ProductController extends Controller
 {
     function getAll(){
         $products=DB::table('products')->Paginate(9);
+         dd($products);
         return view('layouts.product.list-all',['products'=>$products]);
+       
     }
     public function detail($id){
         $product=Product::findOrFail($id);
